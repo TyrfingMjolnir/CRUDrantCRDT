@@ -20,6 +20,7 @@ While what you would really like to do is as follows
 Examples below
 | C | POST | Create | * |
 |------|------|-------------|---|
+
 {
   "uuid": "UUID()"
   "field0": "data0"
@@ -31,12 +32,14 @@ Examples below
 
 | R  | GET    | Read    |
 |------|------|-------------|---|
+
 {
   "uuid": "UUID()"
 }
 
 | U  | PATCH  | Update  |
 |------|------|-------------|---|
+
 {
   "uuid": "UUID()"
   "field3": "data"
@@ -44,6 +47,7 @@ Examples below
 
 | R  | PUT    | Replace | Note Unlike PATCH this backend should overwrite the fields not mentioned. 
 |------|------|-------------|---|
+
 {
   "uuid": "UUID()"
   "field4": "data"
@@ -51,6 +55,7 @@ Examples below
 
 | Ux | PATCH  | Update mark for deletion  |
 |------|------|-------------|---|
+
 {
   "uuid": "UUID()"
   "xDelete": "Date()"
