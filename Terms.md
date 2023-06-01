@@ -30,14 +30,14 @@ Examples below
   "field4": "data4"
 }
 
-| R  | GET    | Read    |
+| R  | GET    | Read    | * |
 |------|------|-------------|---|
 
 {
   "uuid": "UUID()"
 }
 
-| U  | PATCH  | Update  |
+| U  | PATCH  | Update  | * |
 |------|------|-------------|---|
 
 {
@@ -45,7 +45,7 @@ Examples below
   "field3": "data"
 }
 
-| R  | PUT    | Replace | Note Unlike PATCH this backend should overwrite the fields not mentioned. 
+| R  | PUT    | Replace | Note Unlike PATCH this backend should overwrite the fields not mentioned. |
 |------|------|-------------|---|
 
 {
