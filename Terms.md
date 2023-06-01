@@ -20,7 +20,7 @@ While what you would really like to do is as follows
 Examples below
 | C | POST | Create | * |
 |------|------|-------------|---|
-```
+```JSON
 {
   "uuid": "UUID()"
   "field0": "data0"
@@ -32,14 +32,14 @@ Examples below
 ```
 | R  | GET    | Read    | * |
 |------|------|-------------|---|
-```
+```JSON
 {
   "uuid": "UUID()"
 }
 ```
 | U  | PATCH  | Update  | * |
 |------|------|-------------|---|
-```
+```JSON
 {
   "uuid": "UUID()"
   "field3": "data"
@@ -47,15 +47,15 @@ Examples below
 ```
 | R  | PUT    | Replace | Note Unlike PATCH this backend should overwrite the fields not mentioned. |
 |------|------|-------------|---|
-```
+```JSON
 {
   "uuid": "UUID()"
   "field4": "data"
 }
 ```
 | Ux | PATCH  | Update mark for deletion  |
-|------|------|-------------|---|
-```
+|------|------|-------------|
+```JSON
 {
   "uuid": "UUID()"
   "xDelete": "Date()"
