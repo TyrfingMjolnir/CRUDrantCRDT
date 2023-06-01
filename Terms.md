@@ -19,8 +19,8 @@ While what you would really like to do is as follows
 
 Examples below
 | Code | HTTP Method | Description |
-|------|------|-------------|---|
-| C | POST | Create | * |
+|------|------|-------------|
+| C | POST | Create |
 ```JSON
 {
   "uuid": "UUID()"
@@ -32,23 +32,23 @@ Examples below
 }
 ```
 | Code | HTTP Method | Description |
-|------|------|-------------|---|
-| R  | GET    | Read    | * |
+|------|------|-------------|
+| R  | GET    | Read    |
 ```JSON
 {
   "uuid": "UUID()"
 }
 ```
 | Code | HTTP Method | Description |
-|------|------|-------------|---|
-| U  | PATCH  | Update  | * |
+|------|------|-------------|
+| U  | PATCH  | Update  |
 ```JSON
 {
   "uuid": "UUID()"
   "field3": "data"
 }
 ```
-| Code | HTTP Method | Description |
+| Code | HTTP Method | Description | * |
 |------|------|-------------|---|
 | R  | PUT    | Replace | Note Unlike PATCH this backend should overwrite the fields not mentioned. |
 ```JSON
@@ -58,7 +58,7 @@ Examples below
 }
 ```
 | Code | HTTP Method | Description |
-|------|------|-------------|---|
+|------|------|-------------|
 | Ux | PATCH  | Update mark for deletion  |
 ```JSON
 {
